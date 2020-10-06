@@ -1,0 +1,117 @@
+/* 通用样式 */
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/* calculator */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.cal {
+    height: 51rem;
+    width: 38rem;
+
+    background-color: #f2f2f2;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    width: 100%;
+    padding: 1rem;
+}
+
+.content .display,
+.content .input {
+    text-align: right;
+}
+
+.content .display {
+    font-size: 1.5rem;
+    height: 3rem;
+    color: #5c5c5c;
+}
+
+.content .input {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.btn {
+    width: 100%;
+
+    background-color: green;
+}
+
+.btn .ul {
+    width: 100%;
+}
+
+.btn .ul li,
+#toggle {
+    list-style: none;
+
+    width: 25%;
+    height: 6.7rem;
+    font-size: 20px;
+
+    float: left;
+    text-align: center;
+    line-height: 6.7rem;
+    background-color: #fdfdfd;
+
+    border: 1 solid transparent;
+}
+
+.btn .ul .operation {
+    background-color: #f7f7f7;
+}
+
+.btn .ul li:hover {
+    background-color: #e0e0e0;
+
+    /* border: 1px solid #a0a0a0; */
+}
+
+.btn .ul li:active {
+    background-color: #d0d0d0;
+}
+
+#equal {
+    background-color: #bbc1c970;
+}
+
+#equal:hover {
+    background-color: #828d9b70;
+}
+
+#equal:active {
+    background-color: #68768a70;
+}
+
+#close:hover {
+    background-color: #e81123;
+    color: white;
+}
+
+#close:active {
+    background-color: #f1707a;
+    color: white;
+}
