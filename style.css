@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 html,
@@ -38,20 +39,21 @@ body {
     padding: 1rem;
 }
 
-.content .display,
-.content .input {
+.content #display,
+.content #input {
     text-align: right;
 }
 
-.content .display {
+.content #display {
     font-size: 1.5rem;
     height: 3rem;
     color: #5c5c5c;
 }
 
-.content .input {
+.content #input {
     font-size: 5rem;
     font-weight: 700;
+    height: 5.75rem;
 }
 
 .btn {
